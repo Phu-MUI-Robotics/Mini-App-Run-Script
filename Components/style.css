@@ -1,0 +1,257 @@
+/* ขยายความกว้างของ code block */
+.stCode {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ dataframe */
+.stDataFrame {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ขยายความกว้างของ expander */
+.stExpander {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ขยายความกว้างของ text area */
+.stTextArea textarea {
+    width: 100% !important;
+}
+
+/* ปรับ main container ให้กว้างสุดๆ */
+.main .block-container {
+    max-width: 100% !important;
+    padding-left: 0.1rem !important;
+    padding-right: 0.1rem !important;
+    width: 100vw !important;
+}
+
+/* ปรับความกว้างของ column */
+.stColumn {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ output container */
+.stContainer {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ปรับ font size ของ code block */
+.stCode pre {
+    font-size: 9px !important;
+    line-height: 1.1 !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+}
+
+/* ปรับการแสดงผลของ error message */
+.stAlert {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ sidebar */
+.css-1d391kg {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ metric container */
+.metric-container {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ selectbox */
+.stSelectbox > div {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของปุ่ม */
+.stButton {
+    width: 100% !important;
+}
+
+/* ลดความกว้างของ margin */
+.main > div {
+    padding-left: 0.1rem !important;
+    padding-right: 0.1rem !important;
+}
+
+/* ขยายความกว้างของ file uploader */
+.stFileUploader {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ text input */
+.stTextInput {
+    width: 100% !important;
+}
+
+/* ปรับ viewport เต็มความกว้าง */
+.stApp {
+    max-width: 100vw !important;
+    width: 100vw !important;
+}
+
+/* ลด padding ของ container หลัก */
+section.main > div {
+    max-width: 100% !important;
+    padding-left: 0.1rem !important;
+    padding-right: 0.1rem !important;
+}
+
+/* ขยายความกว้างของ markdown */
+.stMarkdown {
+    width: 100% !important;
+}
+
+/* ปรับ dataframe ให้แสดงได้กว้างขึ้น */
+.dataframe {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ขยายความกว้างของ success/error/info message */
+.stSuccess, .stError, .stInfo, .stWarning {
+    width: 100% !important;
+}
+
+/* *** เพิ่ม CSS สำหรับ Preview Table - ขยายมากขึ้น *** */
+.stDataFrame > div {
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+}
+
+/* ปรับ Table Preview ใน Expander */
+.stExpander .stDataFrame {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ Table Headers และ Cell */
+.stDataFrame table {
+    width: 100% !important;
+    table-layout: auto !important;
+    min-width: 100% !important;
+}
+
+.stDataFrame th, .stDataFrame td {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    min-width: 100px !important;
+    max-width: none !important;
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+}
+
+/* ปรับ Container ทั้งหมดให้กว้างขึ้น */
+div[data-testid="stVerticalBlock"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ขยายความกว้างของ st.columns */
+div[data-testid="column"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ปรับ Body และ HTML */
+html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+}
+
+/* ปรับ Streamlit Container หลัก */
+.css-1d391kg {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* ขยายความกว้างสำหรับ Table ใน Preview */
+.stDataFrame div[role="grid"] {
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+}
+
+/* เพิ่ม CSS สำหรับ DataFrame Container */
+.stDataFrame div[data-testid="dataframe"] {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* ปรับ Table Head และ Body */
+.stDataFrame thead, .stDataFrame tbody {
+    width: 100% !important;
+}
+
+/* ขยายความกว้างของ Table Row */
+.stDataFrame tr {
+    width: 100% !important;
+}
+
+/* ลบ margin ของ expander */
+.stExpander {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ปรับ DataFrame ใน Expander ให้กว้างขึ้น */
+.stExpander > div:nth-child(2) {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+}
+
+/* บังคับให้ Table ใช้ความกว้างเต็มที่ */
+.stDataFrame table, .stDataFrame thead, .stDataFrame tbody, .stDataFrame tr {
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+/* ปรับ scroll bar */
+.stDataFrame::-webkit-scrollbar {
+    height: 8px;
+}
+
+.stDataFrame::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.stDataFrame::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.stDataFrame::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Expander ใน Import Files */
+.stExpander > div:first-child {
+    background-color: #28a745 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    border: 2px solid #28a745 !important;
+    padding: 12px !important;
+}
+
+.stExpander > div:first-child:hover {
+    background-color: #218838 !important;
+    border-color: #218838 !important;
+}
+
+/* ลดระยะห่าง */
+.stButton > button {
+    margin-top: 0px;  /* ลดระยะห่างปุ่ม */
+}
+.stSelectbox {
+    margin-top: -28px;  /* ลดระยะห่าง dropdown */
+}
