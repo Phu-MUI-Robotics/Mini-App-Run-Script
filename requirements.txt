@@ -4,3 +4,4 @@ PyYAML
 matplotlib
 pandas
 numpy
+openpyxl
