@@ -1,0 +1,10 @@
+streamlit
+pymongo
+PyYAML
+matplotlib
+pandas
+numpy
+openpyxl
+xlrd
+scikit-learn
+python-dotenv
